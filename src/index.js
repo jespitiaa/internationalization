@@ -9,6 +9,7 @@ import localeEnMessages from "./local/en";
 import JobsList from "./components/jobsList";
 
 console.log(navigator.language)
+
 const localeMessage = function(){
     if(navigator.language==="es-ES"){
         return localeEsMessages;
